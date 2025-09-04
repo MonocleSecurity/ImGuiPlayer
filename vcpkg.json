@@ -1,0 +1,22 @@
+{
+  "name": "imguiplayer",
+  "version-string": "1.0.0",
+  "dependencies": [
+    {
+      "name": "ffmpeg"
+    },
+    {
+      "name": "glew"
+    },
+    {
+      "name": "glfw3"
+    },
+    {
+      "name": "imgui",
+      "features": [
+        "glfw-binding",
+        "opengl3-binding"
+      ]
+    }
+  ]
+}
